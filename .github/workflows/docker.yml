@@ -29,5 +29,5 @@ jobs:
           context: .
           #file: ../../Dockerfile
           push: true
-          tags: latest
+          tags: cabalstacitus/install-root-ca-certs:latest
           labels: ${{ steps.meta.outputs.labels }}
