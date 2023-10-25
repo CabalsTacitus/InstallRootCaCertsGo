@@ -32,5 +32,5 @@ jobs:
           context: .
           platforms: linux/amd64, linux/arm64, darwin/arm64
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: cabalstacitus/install-root-ca-certs:latest
           labels: ${{ steps.meta.outputs.labels }}
